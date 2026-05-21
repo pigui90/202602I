@@ -1,0 +1,102 @@
+Ejercicio 1
+
+Variables
+
+int edad
+String fecha_nacimiento
+double notaGeneral
+String diaIngreso
+String nombreCompleto
+String carrera
+boolean viveCercaSede
+
+
+Constante
+String fechaInicio = "11/05/2026"
+String fechaFinal = "10/09/2026"
+double cobro_credito = 10000.01
+String estadoEstudiante = "Nuevo"
+
+
+--------------------------------------------------------
+Ejercicio 2
+
+Variables
+double salarioBase
+double anualidad
+double dedicacionExclusiva
+double salarioTotal
+double salarioNeto
+
+Constantes
+double renta = 0.05
+double ccss = 0.03 
+
+Expresiones
+
+salarioTotal = salarioBase + anualidad + dedicacionExclusiva
+salarioNeto = salarioTotal - (salarioTotal * renta) - (salarioTotal * ccss)
+
+
+----------------------------------------------------
+
+
+Ejercicio 3
+
+variables
+int edad
+
+constantes
+int cobroBase = 1000
+int tarifaAdultoMayor = 100
+int tarifaInfante = 0
+
+
+expresiones
+
+edad >= 63
+	tarifaAdultoMayor
+edad < 5
+	tarifaInfante
+edad > 5 y edad < 63
+	cobroBase
+
+
+----------------------------------------
+
+
+Ejercicio 4
+
+Variables
+double salarioTotal
+String empleado
+int resultadoEvaluacion
+int tiempoLaborado
+int fechaIngreso
+int bonoTotal
+
+Constantes
+int bono1 = 15000
+int bono2 = 5000
+int evaluacion = 80
+int pago1 = 100000
+int pago2 = 50000
+int yearMin = 2022
+
+expresiones
+
+salarioTotal > pago1 && resultadoEvaluacion > evaluacion
+	bonoTotal = tiempoLaborado * bono2
+
+(salarioTotal < pago2 || fechaIngreso > yearMin) && resultadoEvaluacion  > evaluacion
+	bonoTotal = bono1
+
+resultadoEvaluacion < evaluación
+	bonoTotal = 0
+
+
+
+
+
+
+
