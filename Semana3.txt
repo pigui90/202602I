@@ -1,0 +1,148 @@
+Ejercicio 1
+
+
+Inicio 
+
+int numeroA
+int numeroB
+int suma
+
+Escribir "Ingrese el valor de numeroA"
+Leer numeroA
+Escribir "Ingrese el valor de numeroB"
+Leer numeroB
+suma = numeroA + numeroB
+Escribir suma 
+
+Fin
+
+
+Ejercicio 2
+
+INICIO
+int numero
+int multiplicador = 1
+int resultado 
+Escribir "Ingrese un numero para saber su tabla de multiplicar"
+Leer numero
+
+Mientras(multiplicador <= 10) haga
+
+resultado = numero * multiplicador
+Escribir "El resultado es " + resultado
+multiplicador = multiplicador + 1
+
+Fin-Mientras
+FIN
+
+INICIO
+int numero
+int multiplicador = 1
+int resultado 
+Escribir "Ingrese un numero para saber su tabla de multiplicar"
+Leer numero
+
+Para (multiplicador hasta 10 aumente 1) haga
+
+resultado = numero * multiplicador
+Escribir "El resultado es " + resultado
+
+Fin-Para
+
+FIN
+
+Ejercicio 3
+
+INICIO
+
+int edad
+double peso
+
+Escribir "Indique la edad del usuario"
+Leer edad
+Escribir "Indique el peso del usuario"
+Leer peso
+
+Escribir "El peso es " + peso + " La edad es " + edad 
+
+FIN
+Ejercicio 4
+
+INICIO
+
+double pi = 3,1415
+double radio
+double area
+
+Escribir "Indique el radio del circulo"
+Leer radio
+
+area = pi * radio * radio
+
+Escribir "El área es " 
+Escribir area
+
+FIN
+Ejercicio 5
+
+INICIO
+
+int numero
+
+Escribir "Ingrese un numero para saber si es positivo o negativo"
+Leer numero
+
+Si numero > 0 entonces
+	Escribir "El numero es positivo"
+Sino
+	Si numero < 0 entonces
+		Escribir "El numero es negativo"
+	Fin-Si
+Fin-Si
+FIN
+Ejercicio 6
+
+INICIO
+
+int sumatoria = 0
+int numero = 1
+
+para (numero hasta 10 aumente 1 )
+
+sumatoria = sumatoria + numero
+
+fin-para
+
+Escribir "La sumatoria es " + sumatoria
+
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
