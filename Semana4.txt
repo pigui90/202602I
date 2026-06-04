@@ -1,0 +1,146 @@
+Ejercicio 1
+INICIO
+int numeroA
+int numeroB
+int numeroAux
+
+Escribir "Ingrese un numero"
+Leer numeroA
+Escribir "Ingrese otro numero"
+Leer numeroB
+
+numeroAux = numeroA
+numeroA = numeroB
+numeroB = numeroAux
+
+Escribir "El valor de A es " + numeroA + " el valor de B es " + numeroB 
+
+FIN
+Ejercicio 2
+
+INICIO
+
+int numero1
+int numero2
+int numero3
+
+Escribir "Indique el primer valor"
+Leer numero1
+
+Escribir "Indique el segundo valor"
+Leer numero2
+
+Escribir "Indique el tercer valor"
+Leer numero3
+
+Si (numero1 < 0) entonces
+	Escribir "El producto es " + (numero1 * numero2 * numero3)
+Sino
+	Escribir "La suma es " + (numero1 + numero2 + numero3)
+Fin-Si
+
+FIN
+
+
+Ejercicio 3
+
+INICIO
+
+int numero = 1
+int cuadrado 
+
+para (numero hasta 9 aumente 1) haga
+
+cuadrado = numero * numero
+Escribir "El cuadrado del numero "+ numero + " es " + cuadrado
+
+fin-para
+
+FIN
+
+
+
+
+
+Ejercicio 4
+
+INICIO
+
+String palabra = ""
+
+haga
+
+Escribir "Ingrese una palabra"
+Leer palabra
+
+Mientras (palabra != "SALIR")
+
+FIN
+
+Ejercicio 4.2
+
+INICIO
+
+String palabra = ""
+
+Escribir "Ingrese una palabra"
+Leer palabra 
+ 
+Mientras (palabra != "SALIR") haga
+
+Escribir "Ingrese una palabra"
+Leer palabra
+
+Fin-Mientras
+
+
+FIN
+
+Ejercicio 5
+
+INICIO
+
+String clave
+String eureka = "eureka"
+int intentos = 0
+int intentosMax = 3
+haga 
+
+Escribir "Ingrese la clave"
+Leer clave
+intentos = intentos  + 1
+Si clave != eureka
+	Escribir "Clave incorrecta"
+Sino
+	Escribir "Clave correcta"
+Fin-Si
+
+Mientras (intentos < intentosMax && clave != eureka)
+Si intentos == intentosMax
+	Escribir "Agoto los intentos"
+Fin-Si
+
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
